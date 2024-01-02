@@ -1,0 +1,39 @@
+package Pack1;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.boot.Metadata;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+public class App {
+
+	public static void main( String[] args )
+    {
+		 StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+	        Metadata meta = new MetadataSources(ssr).getMetadataBuilder().build();
+	        try {
+		
+		SessionFactory factory = meta.getSessionFactoryBuilder().build();
+		Session session = factory.openSession();
+		Transaction t = session.beginTransaction();
+		Apec ob1=new Apec();
+		ob1.setName("John");
+		session.saveOrUpdate(ob1);
+		Apec ob2=session.get(Apec.class,1);
+		ob2.setName("Wick");
+		session.saveOrUpdate(ob2);
+		t.commit();
+		System.out.println("Successfully Updated");
+		factory.close();
+		session.close();
+	        }
+	        catch(Exception e)
+	        {
+	        	e.printStackTrace();
+	        }
+    }
+
+}

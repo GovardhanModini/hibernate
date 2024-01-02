@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "
+-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+        
+   
+ 
+  
+  
+ <hibernate-mapping>  
+  <class name="pack1.Question" table="many100">  
+    <id name="id" type="int">  
+    <column name="q_id"/>
+     <generator class="increment"></generator>  
+    </id>  
+            
+    <property name="qname"></property> 
+    <list name="answers" table="manyqa100" fetch="select" cascade="all">
+    <key column="q_id"></key>
+    <index column="type"></index>
+   <many-to-many class="pack1.Answer" column="ans_id"/>
+    
+    
+    </list> 
+    
+            
+  </class>  
+            
+ </hibernate-mapping>  

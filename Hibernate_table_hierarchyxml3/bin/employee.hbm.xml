@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+        
+   
+ 
+  
+  
+ <hibernate-mapping> 
+ <class name="mypack3.College" table="College100" discriminator-value="clg">
+ <discriminator column="type" type="string"></discriminator>
+ <property name="cname"></property
+ <property name="cloc"></property>
+ 
+
+ 
+ <subclass name="mypack3.Student" discriminator-value="stu">
+  <id name="sid">
+ <generator class="assigned"></generator>
+ </id>
+ <property name="sname"></property>
+ </subclass>
+ 
+ <subclass name="mypack3.Faculty" discriminator-value="fac">
+ <property name="fname"></property
+ <property name="fdept"></property>
+ </subclass>
+ 
+ <subclass name="mypack3.Library" discriminator-value="books">
+ <property name="lbooks"></property>
+ </subclass>
+ 
+
+ 
+ 
+
+ 
+ </class>
+            
+ </hibernate-mapping>  

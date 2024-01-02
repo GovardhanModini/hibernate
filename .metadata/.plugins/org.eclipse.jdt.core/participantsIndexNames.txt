@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\Hibernate Examples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3571202231.index
+\HibernateWeb2\src\main\java
+D:\Hibernate Examples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4193610633.index
+\HibernateWeb\src\main\java
+D:\Hibernate Examples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2052196479.index
+\Project4\src\main\java

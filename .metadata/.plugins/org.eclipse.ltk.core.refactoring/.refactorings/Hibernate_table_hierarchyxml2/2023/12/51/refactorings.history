@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Hibernate_One_to_One/src&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate_table_hierarchyxml2&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate_One_to_One/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     employee.hbm.xml&#x0D;&#x0A;     hibernate.cfg.xml" description="Copy files" destination="=Hibernate_One_to_One/src" element1="src/employee.hbm.xml" element2="src/hibernate.cfg.xml" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1703242683975" units="0" version="1.0"/>
+</session>

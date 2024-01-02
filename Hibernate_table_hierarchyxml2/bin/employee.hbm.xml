@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+        
+   
+ 
+  
+  
+ <hibernate-mapping>  
+ <class name="com.abc.mypack3.Account" table="Account" discriminator-value="acc">
+ <id name="id">
+ <generator class="increment"></generator>
+ </id>
+ <discriminator column="type" type="string"></discriminator>
+ <property name="name"></property>
+ 
+ <subclass name="com.abc.mypack3.CreditCard" discriminator-value="credit">
+ <property name="cbalance"></property>
+ </subclass>
+ 
+ <subclass name="com.abc.mypack3.DebitCard" discriminator-value="debit">
+ <property name="dbalance"></property>
+ </subclass>
+ 
+ <subclass name="com.abc.mypack3.GoldLoan" discriminator-value="gloan">
+ <property name="loanamount"></property>
+ </subclass>
+ 
+ <subclass name="com.abc.mypack3.HouseLoan" discriminator-value="hloan">
+ <property name="loanemi"></property>
+ </subclass>
+ 
+ 
+
+ 
+ </class>
+            
+ </hibernate-mapping>  

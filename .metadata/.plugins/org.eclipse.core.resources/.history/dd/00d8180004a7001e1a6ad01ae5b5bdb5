@@ -1,0 +1,6 @@
+package pack1;
+
+public enum Project_Status {
+	COMPLETED,PROGRESS;
+	
+}

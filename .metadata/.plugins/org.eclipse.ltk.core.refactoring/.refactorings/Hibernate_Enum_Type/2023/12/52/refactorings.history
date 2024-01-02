@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;pack1.Project_Status.java&apos; to &apos;ProjectStatus.java&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate_Enum_Type&apos;&#x0D;&#x0A;- Original element: &apos;pack1.Project_Status.java&apos;&#x0D;&#x0A;- Renamed element: &apos;pack1.ProjectStatus.java&apos;" description="Rename compilation unit &apos;Project_Status.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;pack1{Project_Status.java" name="ProjectStatus.java" references="false" stamp="1703934807686" version="1.0"/>
+</session>

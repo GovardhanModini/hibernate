@@ -1,0 +1,15 @@
+127.0.0.1 - - [13/Dec/2023:16:23:50 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:23:55 +0530] "GET /Project4/WEB-INF/classes/com/abc/mypack/User.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:23:55 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:24:49 +0530] "GET /Project4/WEB-INF/classes/com/abc/mypack/User.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:24:52 +0530] "GET /Project4/WEB-INF/classes/com/abc/mypack/User.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:24:54 +0530] "GET /Project4/WEB-INF/classes/com/abc/mypack/User.java HTTP/1.1" 404 682
+127.0.0.1 - - [13/Dec/2023:16:30:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:30:36 +0530] "GET /Project4/WEB-INF/classes/com/abc/mypack/User.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:30:36 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:31:42 +0530] "GET /Project4/ HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:32:10 +0530] "POST /Project4/register.jsp HTTP/1.1" 500 7994
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:32:10 +0530] "POST /Project4/register.jsp HTTP/1.1" 500 7994
+127.0.0.1 - - [13/Dec/2023:16:34:13 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:34:14 +0530] "GET /Project4/ HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:34:48 +0530] "POST /Project4/register.jsp HTTP/1.1" 200 175
